@@ -7,6 +7,10 @@ const sum = num1 + num2
 
 console.log("The sum of ", num1, num2, " is ", sum)
 
+const isTrue = true;
+
+console.log(isTrue ? "It's true!" : "It's false!");
+
 const cities = ["Athens", "London", "Amsterdam"]
 
 cities.push("Tokyo")
