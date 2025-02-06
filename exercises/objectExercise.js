@@ -1,0 +1,3 @@
+function keysFunc(object, keys) {
+  
+}

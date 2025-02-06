@@ -5,11 +5,11 @@ const deleteBackwards = (arr, val) => {
 
   let i = arr.length - 1
 
-  while (i) {
+  while (i--) {
     if (arr[i] === val) {
       arr.splice(i, 1)
     }
-    i--
+    //i--
   }
 }
 
