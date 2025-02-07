@@ -32,7 +32,7 @@ console.log("Coding" && 7) //truthy && truthy
 // truthy && falsy, first falsy -> the first falsy value
 
 console.log("" || "Default") 
-// First trithy value or last falsy if all are false
+// First truthy value or last falsy if all are false
 
 const username = "" || "Default"
 
