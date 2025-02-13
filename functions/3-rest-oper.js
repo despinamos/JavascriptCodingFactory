@@ -15,8 +15,8 @@ function sum(...numbers) {
 }
 
 //spread vs rest
-function maxx(...numbers) { //rest
-  return Math.max(...numbers) // spread
+function maxx(...numbers) { //rest, consumer, συλλέγει
+  return Math.max(...numbers) // spread. producer, παρέχει
 }
 
 console.log(sum(1, 2, 7, 9, 22))

@@ -2,12 +2,12 @@
 // Function factory
 function createMultiplier(multiplier) {
   return function(num) {
-    return num + multiplier
+    return num * multiplier
   }
 }
 
-const createMultiplier = (multiplier) => (num) => num * multiplier
+const createMultiplierr = (multiplier) => (num) => num * multiplier
 
 const double = createMultiplier(2)
-const triple = createMultiplier(3)
+const triple = createMultiplierr(3)
 console.log(double(5))

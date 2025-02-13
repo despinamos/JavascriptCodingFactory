@@ -1,3 +1,0 @@
-function keysFunc(object, keys) {
-  
-}

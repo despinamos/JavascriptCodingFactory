@@ -13,7 +13,7 @@ function getUser(name = "Guest", age = 18) {
 const obj = getUser()
 console.log(obj)
 
-function getFormattedDatedTime(
+function getFormattedDateTime(
   locale = "en-US",
   options = {
     year: "numeric",
